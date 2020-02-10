@@ -1,10 +1,10 @@
 body {
     max-width: 960px;
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-    background: #ffffff;
-    border-color: #dddddd;
     padding: auto;
     border-width: 50px;
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/repeated-square.png);
+    /* background: #eeeeee; */
 
 }
 
@@ -43,6 +43,10 @@ nav {
     text-decoration: none;
 }
 
+.right {
+    justify-content: space-between;
+}
+
 .name {
     display: block;
 }
@@ -59,6 +63,15 @@ nav {
     border: 5px;
 }
 
+.container {
+    height: 550px;
+    width: 550px;
+    background-color: #ffffff;
+}
+
+hr {
+    color: #777777
+}
 h1 {
     background-color: #4aaaa5;
     width: 200px;
@@ -92,7 +105,8 @@ a {
 }
 
 .line {
-    width: 100%;
+    width: 94%;
+    margin: 10px;
 }
 
 .submit {
